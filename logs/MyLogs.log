@@ -1018,3 +1018,31 @@
 [INFO ] 2023-01-10 23:28:09.767 [main] Log - New Tab Opened
 [INFO ] 2023-01-10 23:28:10.800 [main] Log - prince.ali23k@gmail.com
 [INFO ] 2023-01-10 23:28:10.808 [main] Log - p@ssword1
+[INFO ] 2023-01-11 13:42:37.964 [main] Log - Launching Firefox
+[INFO ] 2023-01-11 13:42:38.441 [main] Log - https://www.facebook.com/
+[INFO ] 2023-01-11 13:42:38.461 [main] Log - prince.ali23k@gmail.com p@ssword1
+[INFO ] 2023-01-11 13:42:38.463 [main] Log - testcase1.com p@ssword1
+[INFO ] 2023-01-11 13:42:38.465 [main] Log - testcase2@icloud p@ssword1
+[INFO ] 2023-01-11 13:50:45.582 [main] Log - Launching Firefox
+[INFO ] 2023-01-11 13:50:46.065 [main] Log - https://www.facebook.com/
+[INFO ] 2023-01-11 13:50:46.393 [main] Log - New Tab Opened
+[INFO ] 2023-01-11 13:50:48.941 [main] Log - prince.ali23k@gmail.com
+[INFO ] 2023-01-11 13:50:48.952 [main] Log - p@ssword1
+[INFO ] 2023-01-11 13:50:49.235 [main] Log - New Tab Opened
+[INFO ] 2023-01-11 13:50:51.783 [main] Log - prince.ali23k@gmail.com
+[INFO ] 2023-01-11 13:50:51.792 [main] Log - p@ssword1
+[INFO ] 2023-01-11 13:50:51.803 [main] Log - prince.ali23k@gmail.com p@ssword1
+[INFO ] 2023-01-11 13:50:51.983 [main] Log - New Tab Opened
+[INFO ] 2023-01-11 13:50:54.517 [main] Log - testcase1.com
+[INFO ] 2023-01-11 13:50:54.527 [main] Log - p@ssword1
+[INFO ] 2023-01-11 13:50:54.705 [main] Log - New Tab Opened
+[INFO ] 2023-01-11 13:50:57.251 [main] Log - testcase1.com
+[INFO ] 2023-01-11 13:50:57.263 [main] Log - p@ssword1
+[INFO ] 2023-01-11 13:50:57.273 [main] Log - testcase1.com p@ssword1
+[INFO ] 2023-01-11 13:50:57.458 [main] Log - New Tab Opened
+[INFO ] 2023-01-11 13:51:00.002 [main] Log - testcase2@icloud
+[INFO ] 2023-01-11 13:51:00.013 [main] Log - p@ssword1
+[INFO ] 2023-01-11 13:51:00.203 [main] Log - New Tab Opened
+[INFO ] 2023-01-11 13:51:02.746 [main] Log - testcase2@icloud
+[INFO ] 2023-01-11 13:51:02.758 [main] Log - p@ssword1
+[INFO ] 2023-01-11 13:51:02.770 [main] Log - testcase2@icloud p@ssword1

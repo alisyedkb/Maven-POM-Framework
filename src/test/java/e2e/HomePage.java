@@ -22,7 +22,7 @@ public class HomePage extends BaseTest {
 	@FindBy(id = "pass")
 	WebElement password;
 
-	public LoginPage login(String user, String pass) {
+	public LoginPage login(String user, String pass) throws InterruptedException {
 
 		for (int i = 0; i < 2; i++) {
 			driver.switchTo().newWindow(WindowType.TAB);
@@ -30,11 +30,7 @@ public class HomePage extends BaseTest {
 			driver.getTitle();
 			Log.info("New Tab Opened");
 
-			try {
-				Thread.sleep(250); // waits .25 second
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+			Thread.sleep(2500);
 
 			username.sendKeys(user);
 			Log.info(user);
