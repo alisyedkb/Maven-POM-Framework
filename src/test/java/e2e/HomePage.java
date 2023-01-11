@@ -31,7 +31,7 @@ public class HomePage extends BaseTest {
 			Log.info("New Tab Opened");
 
 			try {
-				Thread.sleep(250);
+				Thread.sleep(250); // waits .25 second
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
