@@ -23,7 +23,7 @@ public class HomePage extends BaseTest {
 	WebElement password;
 
 	public LoginPage login(String user, String pass) {
-
+		// opens 2 tabs
 		for (int i = 0; i < 2; i++) {
 			driver.switchTo().newWindow(WindowType.TAB);
 			driver.get(readConfig.gettestSiteURL());
