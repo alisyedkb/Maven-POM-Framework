@@ -21,6 +21,7 @@ public class HomePage extends BaseTest {
 	@FindBy(id = "pass")
 	WebElement password;
 
+
 	public void login(String user, String pass) throws InterruptedException {
 
 		for (int i = 0; i < 2; i++) {
