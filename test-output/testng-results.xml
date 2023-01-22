@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-21T22:06:50 EST" name="Default suite" finished-at="2023-01-21T22:06:52 EST" duration-ms="1300">
+  <suite started-at="2023-01-21T22:59:46 EST" name="Default suite" finished-at="2023-01-21T22:59:48 EST" duration-ms="1585">
     <groups>
     </groups>
-    <test started-at="2023-01-21T22:06:50 EST" name="Default test" finished-at="2023-01-21T22:06:52 EST" duration-ms="1300">
-      <class name="testCases.DataDrivenTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.DataDrivenTest@359f7cdf]" started-at="2023-01-21T22:06:48 EST" name="setUp" finished-at="2023-01-21T22:06:50 EST" duration-ms="2036" status="PASS">
+    <test started-at="2023-01-21T22:59:46 EST" name="Default test" finished-at="2023-01-21T22:59:48 EST" duration-ms="1585">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.LoginTest@359f7cdf]" started-at="2023-01-21T22:59:44 EST" name="setUp" finished-at="2023-01-21T22:59:46 EST" duration-ms="2157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ddt(java.lang.String,java.lang.String)[pri:0, instance:testCases.DataDrivenTest@359f7cdf]" started-at="2023-01-21T22:06:51 EST" name="ddt" data-provider="ddt" finished-at="2023-01-21T22:06:51 EST" duration-ms="396" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@359f7cdf]" started-at="2023-01-21T22:59:46 EST" name="login" data-provider="logindata" finished-at="2023-01-21T22:59:47 EST" duration-ms="749" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,8 +33,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ddt -->
-        <test-method signature="ddt(java.lang.String,java.lang.String)[pri:0, instance:testCases.DataDrivenTest@359f7cdf]" started-at="2023-01-21T22:06:51 EST" name="ddt" data-provider="ddt" finished-at="2023-01-21T22:06:51 EST" duration-ms="288" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@359f7cdf]" started-at="2023-01-21T22:59:47 EST" name="login" data-provider="logindata" finished-at="2023-01-21T22:59:47 EST" duration-ms="468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,8 +49,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ddt -->
-        <test-method signature="ddt(java.lang.String,java.lang.String)[pri:0, instance:testCases.DataDrivenTest@359f7cdf]" started-at="2023-01-21T22:06:51 EST" name="ddt" data-provider="ddt" finished-at="2023-01-21T22:06:52 EST" duration-ms="323" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@359f7cdf]" started-at="2023-01-21T22:59:47 EST" name="login" data-provider="logindata" finished-at="2023-01-21T22:59:48 EST" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,12 +65,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ddt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DataDrivenTest@359f7cdf]" started-at="2023-01-21T22:06:52 EST" name="tearDown" finished-at="2023-01-21T22:06:52 EST" duration-ms="0" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTest@359f7cdf]" started-at="2023-01-21T22:59:48 EST" name="tearDown" finished-at="2023-01-21T22:59:48 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.DataDrivenTest -->
+      </class> <!-- testCases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
