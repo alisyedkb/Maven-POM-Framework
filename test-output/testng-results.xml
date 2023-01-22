@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-26T20:40:44 EST" name="Default suite" finished-at="2022-12-26T20:41:26 EST" duration-ms="42458">
+  <suite started-at="2023-01-17T20:43:04 EST" name="Default suite" finished-at="2023-01-17T20:43:04 EST" duration-ms="117">
     <groups>
     </groups>
-    <test started-at="2022-12-26T20:40:44 EST" name="Default test" finished-at="2022-12-26T20:41:26 EST" duration-ms="42458">
-      <class name="testCases.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.LoginTest@42e99e4a]" started-at="2022-12-26T20:40:35 EST" name="setUp" finished-at="2022-12-26T20:40:44 EST" duration-ms="8952" status="PASS">
+    <test started-at="2023-01-17T20:43:04 EST" name="Default test" finished-at="2023-01-17T20:43:04 EST" duration-ms="117">
+      <class name="util.DbConnection">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:util.DbConnection@6973b51b]" started-at="2023-01-17T20:43:02 EST" name="setUp" finished-at="2023-01-17T20:43:04 EST" duration-ms="1811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,76 +18,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@42e99e4a]" started-at="2022-12-26T20:40:44 EST" name="login" data-provider="logindata" finished-at="2022-12-26T20:40:46 EST" duration-ms="2390" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adb@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[gfaxz3398]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@42e99e4a]" started-at="2022-12-26T20:40:46 EST" name="login" data-provider="logindata" finished-at="2022-12-26T20:41:06 EST" duration-ms="20025" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adbgmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tsabf5425]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="dbConnection()[pri:0, instance:util.DbConnection@6973b51b]" started-at="2023-01-17T20:43:04 EST" name="dbConnection" finished-at="2023-01-17T20:43:04 EST" duration-ms="107" status="FAIL">
+          <exception class="java.lang.ClassCastException">
             <message>
-              <![CDATA[Unable to locate element: //*[text()='Account']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a0531c79-b862-4024-9b07-6d55c4535139, findElement {using=xpath, value=//*[text()='Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:debuggerAddress: 127.0.0.1:51978, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 52908, moz:profile: /var/folders/_5/nffrxs0x737..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:51978/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0531c79-b862-4024-9b07-6d55c4535139]]>
+              <![CDATA[class com.mysql.cj.jdbc.ConnectionImpl cannot be cast to class org.openqa.selenium.bidi.Connection (com.mysql.cj.jdbc.ConnectionImpl and org.openqa.selenium.bidi.Connection are in unnamed module of loader 'app')]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()='Account']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a0531c79-b862-4024-9b07-6d55c4535139, findElement {using=xpath, value=//*[text()='Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:debuggerAddress: 127.0.0.1:51978, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 52908, moz:profile: /var/folders/_5/nffrxs0x737..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:51978/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0531c79-b862-4024-9b07-6d55c4535139
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
-at e2e.HomePage.signIn(HomePage.java:80)
-at testCases.LoginTest.login(LoginTest.java:17)
+              <![CDATA[java.lang.ClassCastException: class com.mysql.cj.jdbc.ConnectionImpl cannot be cast to class org.openqa.selenium.bidi.Connection (com.mysql.cj.jdbc.ConnectionImpl and org.openqa.selenium.bidi.Connection are in unnamed module of loader 'app')
+at util.DbConnection.dbConnection(DbConnection.java:16)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,103 +56,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.ClassCastException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@42e99e4a]" started-at="2022-12-26T20:41:06 EST" name="login" data-provider="logindata" finished-at="2022-12-26T20:41:26 EST" duration-ms="20016" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[adb@cloud]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[erxct9712]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //*[text()='Account']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a0531c79-b862-4024-9b07-6d55c4535139, findElement {using=xpath, value=//*[text()='Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:debuggerAddress: 127.0.0.1:51978, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 52908, moz:profile: /var/folders/_5/nffrxs0x737..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:51978/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0531c79-b862-4024-9b07-6d55c4535139]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()='Account']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.1', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [a0531c79-b862-4024-9b07-6d55c4535139, findElement {using=xpath, value=//*[text()='Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0, moz:accessibilityChecks: false, moz:buildID: 20221110173214, moz:debuggerAddress: 127.0.0.1:51978, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 52908, moz:profile: /var/folders/_5/nffrxs0x737..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:51978/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0531c79-b862-4024-9b07-6d55c4535139
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source)
-at e2e.HomePage.signIn(HomePage.java:80)
-at testCases.LoginTest.login(LoginTest.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTest@42e99e4a]" started-at="2022-12-26T20:41:26 EST" name="tearDown" finished-at="2022-12-26T20:41:26 EST" duration-ms="1" status="PASS">
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:util.DbConnection@6973b51b]" started-at="2023-01-17T20:43:04 EST" name="tearDown" finished-at="2023-01-17T20:43:04 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.LoginTest -->
+      </class> <!-- util.DbConnection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

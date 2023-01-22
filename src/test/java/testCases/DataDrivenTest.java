@@ -11,7 +11,7 @@ import util.Log;
 public class DataDrivenTest extends BaseTest {
 
 	@Test(dataProvider = "ddt")
-	public void ddt(String user, String pass) {
+	public void ddt(String user, String pass) throws InterruptedException {
 
 		HomePage hp = new HomePage(driver);
 		hp.login(user, pass);

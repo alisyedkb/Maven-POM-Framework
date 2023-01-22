@@ -8,7 +8,7 @@ import java.util.Properties;
 public class ReadConfig {
 
 	FileInputStream fis;
-	Properties properties = new Properties();
+	static Properties properties = new Properties();
 
 	public ReadConfig() {
 		try {
@@ -48,6 +48,16 @@ public class ReadConfig {
 	public String getpassword() {
 		String password = properties.getProperty("password");
 		return password;
+	}
+
+	public static String getUserSQL() {
+		String userSQL = properties.getProperty("usermysql");
+		return userSQL;
+	}
+
+	public static String getpassSQL() {
+		String passSQL = properties.getProperty("userpass");
+		return passSQL;
 	}
 
 }
