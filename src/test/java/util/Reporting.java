@@ -54,7 +54,5 @@ public class Reporting extends BaseTest implements ITestListener {
 	public void onFinish(ITestContext context) {
 
 		extent.flush();
-
 	}
-
 }

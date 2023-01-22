@@ -1,0 +1,12 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.sideBar.location": "left",
+    "workbench.editor.enablePreviewFromCodeNavigation": false,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.tabCloseButton": "right",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.titleScrollbarSizing": "default",
+    "workbench.settings.editor": "ui"
+}
