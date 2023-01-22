@@ -5,7 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <build>
-<<<<<<< HEAD
 	  <plugins>
 		  <plugin>
 			  <groupId>org.apache.maven.plugins</groupId>
@@ -29,31 +28,6 @@
 		  </plugin>
 	  </plugins>
   </build>
-  
-=======
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.18.1</version>
-				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-	
->>>>>>> 924b9ca495c95356c3a3ffae3f9cdfb3c51dbad9
    <dependencies>
   
   <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
