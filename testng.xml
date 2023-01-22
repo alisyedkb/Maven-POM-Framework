@@ -7,9 +7,9 @@
 </listeners>	
 	
 	<parameter name="browser" value="firefox"></parameter>
- 	<test name="Test">
+ 	<test name="Login Test">
 		<classes>
-			<class name="testCases.LoginTest"></class>
+			<class name="testCases.LoginTest"/>
 		</classes>
 </test> <!-- Test -->
 </suite> <!-- Suite -->
