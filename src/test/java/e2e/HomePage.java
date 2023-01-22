@@ -21,16 +21,13 @@ public class HomePage extends BaseTest {
 	@FindBy(id = "pass")
 	WebElement password;
 
-
 	public void login(String user, String pass) throws InterruptedException {
 
-		for (int i = 0; i < 2; i++) {
-			driver.get(readConfig.gettestSiteURL());
-			username.sendKeys(user);
-			Log.info(user);
-			password.sendKeys(pass);
-			Log.info(pass);
-		}
+		driver.get(readConfig.gettestSiteURL());
+		username.sendKeys(user);
+		Log.info(user);
+		password.sendKeys(pass);
+		Log.info(pass);
 	}
 
 	public CreateAccountPage createAccount() {
